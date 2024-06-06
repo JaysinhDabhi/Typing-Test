@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+:root{
+    --bgColor: #333;
+    --textPrimary: #fff;
+    --textSecondary: #666;
+    --primaryColor: #fd4;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bgColor);
+    color: var(--primaryColor);
+}
+
+main{
+    width: 600px;
+    margin: 50px auto;
+}
 h1{
+    
+    color: var(--primaryColor);
+
+}
+
+h1 svg{
     width: 40px;
+    fill: var(--primaryColor);
 }
