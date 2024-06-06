@@ -18,4 +18,5 @@ function newGame(){
     }
 }
 
+
 newGame();
